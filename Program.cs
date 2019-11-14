@@ -9,6 +9,7 @@ namespace StringPractice {
 
   class Program {
     static void Main (string[] args) {
-
+      var method = ShippingMethod.Express;
+      Console.WriteLine ((int) method);
     }
   }
