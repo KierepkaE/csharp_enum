@@ -14,5 +14,7 @@ namespace StringPractice {
 
       var methodId = 3;
       Console.WriteLine ((ShippingMethod) methodId);
+
+      Console.WriteLine (method.ToString ());
     }
   }
