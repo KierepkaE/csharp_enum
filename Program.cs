@@ -2,9 +2,9 @@ using System;
 
 namespace StringPractice {
   public enum ShippingMethod {
-    RegularAirMail,
-    RegisteredAirMail,
-    Express
+    RegularAirMail = 1,
+    RegisteredAirMail = 2,
+    Express = 3
   }
 
   class Program {
