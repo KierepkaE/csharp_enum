@@ -16,5 +16,8 @@ namespace StringPractice {
       Console.WriteLine ((ShippingMethod) methodId);
 
       Console.WriteLine (method.ToString ());
+      var methodName = "Express";
+      Enum.Parse (typeof (ShippingMethod), methodName);
+      Console.WriteLine ();
     }
   }
